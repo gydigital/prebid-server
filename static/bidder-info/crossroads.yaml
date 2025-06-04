@@ -1,6 +1,6 @@
 endpoint: "https://pb.xrdz.io/ortb/${publisherId}"
 maintainer:
-  email: "prebid@crossroads.com"
+  email: "tech@adte.com"
 capabilities:
   app:
     mediaTypes:
