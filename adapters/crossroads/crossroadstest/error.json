@@ -1,0 +1,21 @@
+{
+  "mockBidRequest": {
+    "id": "test-request-id",
+    "imp": [
+      {
+        "id": "test-imp-id",
+        "ext": {
+          "bidder": {
+            "publisherId": "12345"
+          }
+        }
+      }
+    ]
+  },
+  "expectedMakeRequestsErrors": [
+    {
+      "value": "neither Banner nor Video object specified",
+      "comparison": "literal"
+    }
+  ]
+} 

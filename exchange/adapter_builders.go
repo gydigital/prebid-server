@@ -83,6 +83,7 @@ import (
 	"github.com/prebid/prebid-server/v3/adapters/copper6ssp"
 	"github.com/prebid/prebid-server/v3/adapters/cpmstar"
 	"github.com/prebid/prebid-server/v3/adapters/criteo"
+	"github.com/prebid/prebid-server/v3/adapters/crossroads"
 	"github.com/prebid/prebid-server/v3/adapters/cwire"
 	"github.com/prebid/prebid-server/v3/adapters/datablocks"
 	"github.com/prebid/prebid-server/v3/adapters/decenterads"
@@ -332,6 +333,7 @@ func newAdapterBuilders() map[openrtb_ext.BidderName]adapters.Builder {
 		openrtb_ext.BidderCopper6ssp:        copper6ssp.Builder,
 		openrtb_ext.BidderCpmstar:           cpmstar.Builder,
 		openrtb_ext.BidderCriteo:            criteo.Builder,
+		openrtb_ext.BidderCrossroads:        crossroads.Builder,
 		openrtb_ext.BidderCWire:             cwire.Builder,
 		openrtb_ext.BidderDatablocks:        datablocks.Builder,
 		openrtb_ext.BidderDecenterAds:       decenterads.Builder,

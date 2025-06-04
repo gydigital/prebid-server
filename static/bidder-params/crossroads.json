@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Crossroads Adapter Params",
+  "description": "A schema which validates params accepted by the Crossroads adapter",
+
+  "type": "object",
+  "properties": {
+    "publisherId": {
+      "type": "string",
+      "description": "Crossroads publisher ID for this ad unit (provided to you by your partner manager)"
+    },
+    "floor" :  {"description" : "the bid floor", "type": "number" }
+  },
+  "required": ["publisherId"]
+} 

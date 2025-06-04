@@ -1,0 +1,16 @@
+endpoint: "https://z.xrdz.io/ortb/${publisherId}"
+maintainer:
+  email: "prebid@crossroads.com"
+capabilities:
+  app:
+    mediaTypes:
+      - banner
+      - video
+  site:
+    mediaTypes:
+      - banner
+      - video
+endpointCompression: "GZIP"
+openrtb:
+  version: 2.5
+  gpp-supported: true 
