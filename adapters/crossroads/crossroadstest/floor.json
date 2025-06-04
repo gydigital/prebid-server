@@ -29,7 +29,7 @@
   "httpCalls": [
     {
       "expectedRequest": {
-        "uri": "https://x.xrdz.io/ortb/12345",
+        "uri": "https://pb.xrdz.io/ortb/12345",
         "body": {
           "id": "test-request-id",
           "imp": [
